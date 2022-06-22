@@ -1,4 +1,4 @@
-header{ display: grid;
+.conteiner-header{ display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: none;
     grid-template-areas: 
@@ -8,10 +8,11 @@ header{ display: grid;
      h1{
         color:rgb(247, 243, 243);
         font-family: 'Dancing Script', cursive;
-        font-size: 100%;
+        font-size: 300%;
         text-align: center;
         grid-area: h1;
         display:grid;
+        
        
 
     }

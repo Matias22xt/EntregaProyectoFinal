@@ -1,18 +1,21 @@
 @charset "UTF-8";
-body {
+.principal {
   background-image: url(../img/2dogos.jpg);
   background-repeat: repeat; }
 
-header {
+.principal1 {
+  background-color: #0c2433; }
+
+.conteiner-header {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: none;
   grid-template-areas: "h1 h1";
   height: 220px; }
-  header h1 {
+  .conteiner-header h1 {
     color: #f7f3f3;
     font-family: 'Dancing Script', cursive;
-    font-size: 100%;
+    font-size: 300%;
     text-align: center;
     grid-area: h1;
     display: grid; }
@@ -87,6 +90,60 @@ main nav .video {
   width: 163%;
   display: flex; }
 
+main article .subtitulo {
+  color: #ee5007;
+  text-decoration-line: underline;
+  text-align: center;
+  font-size: 200%; }
+
+main article .pconEstilo {
+  font-style: italic;
+  font-size: 180%;
+  color: #ee5007; }
+
+main article .pconEstilo {
+  font-style: italic;
+  font-size: 180%;
+  color: #ee5007; }
+
+main article nav .lista {
+  font-size: 150%;
+  color: #ee5007; }
+
+main .subtitulo2 {
+  color: #ee5007;
+  margin: 10px;
+  padding: 10px; }
+
+main .subtituloo2 {
+  color: #ee5007;
+  margin: 10px;
+  padding: 10px;
+  top: 10px;
+  left: 10px; }
+
+main form {
+  margin: 0 auto;
+  width: 300px;
+  background-color: #ebeb89;
+  padding: 10px;
+  border-radius: 10px; }
+
+main .cuadro {
+  color: #ee5007;
+  width: 280px; }
+
+main .input {
+  width: 200px;
+  height: 18px; }
+
+main .input:focus {
+  width: 250px;
+  height: 40px;
+  font-size: 25px;
+  color: black;
+  background-color: white; }
+
 .footer {
   display: flex;
   padding: 1px;
@@ -149,16 +206,6 @@ main nav .video {
   text-decoration: none;
   font-size: 150%;
   text-align: center; }
-
-.menu3 {
-  color: #0c2433;
-  font-family: cursive;
-  font-size: 60%;
-  text-decoration: none;
-  display: grid; }
-
-.menu3:hover {
-  color: beige; }
 
 .imgredes {
   width: 60px;
