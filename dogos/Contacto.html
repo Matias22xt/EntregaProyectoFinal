@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deporte adaptado para personas con discapacidad motora en miembros superiores e inferiores.">
+    <meta name="keywords" content="SILLA,QUADRIPLEJIA,TETRAPLEJIA,RUGBY ADAPTADO,RUGBY,DEPORTES ADAPTADOS,DEPORTES,CÒRDOBA,DOGOS">
+     <!--comienzo ruta de estilo-->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>DogosQuadRugby</title>
+    <link rel="shortcut icon" href="../imagenes/Dogos23.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body id="principal">
+    <header class="">
+
+        <nav class="navbar navbar-expand-lg" style="background-color: #fa8131;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Bienvenidos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Integrantes.html">Integrantes Clasificaciòn</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Acercade.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Torneos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="https://villamariavivo.com/galeria-de-fotos-el-torneo-internacional-de-quad-rugby-definira-a-los-finalistas/" target="_blank">Internacionales</a></li>
+                      <li><a class="dropdown-item" href="https://www.lanacion.com.ar/deportes/rugby/quad-rugby-deporte-adaptado-avanza-argentina-rugby-nid2236086/" target="_blank">Locales</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <div>
+            <img class="img3" src="../imagenes/Dogos22.jpg" alt="dogos22">
+        </div>
+    </header>
+    
+       
+        <main>
+            <h3 class="subtitulo2">Envìanos tu consulta:</h3>
+        <fieldset>
+            <form action="#"><!--etiqueta padre -->
+                <h2 class="subtitulo2">Contacto</h2>
+                <label class="cuadro" for="Nombre">Nombre</label>
+                <input class="input" type="text" required><br> <br>
+                <label class="cuadro" for="Apellido">Apellido</label>
+                <input class="input" type="text" required><br><br>
+                <label class="cuadro"for="E-mail">E-mail</label>
+                <input class="input" type="text" required><br><br>
+                <div class="form-check form-switch text-light">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="cuadro form-check-label" for="flexSwitchCheckDefault">Lesionado Medular</label>
+                  </div>
+                <select name="Paises">
+                    <option value="opcion1">Argentina</option>
+                    <option value="opcion2">Brasil</option>
+                    <option value="opcion3">Perù</option>
+                    <option value="opcion4">Uruguay</option>
+                    <option value="opcion5">Paraguay</option>
+                    <option value="opcion6">Chile</option>
+                    <option value="opcion7">Bolivia</option>
+    
+                </select>
+                <br><br>
+                <div class="text-light">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="cuadro form-check-label" for="flexRadioDefault1">
+                      Hombre
+                    </label>
+                  </div>
+                  <div class="form-check text-light m-1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="cuadro form-check-label" for="flexRadioDefault2">
+                      Mujer
+                    </label>
+                  </div>
+                <textarea class="cuadro" name="comentario" id="" cols="30" rows="10"></textarea><br><br>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+        <button type="reset" class="btn btn-secondary">Borrar campos</button>
+    
+       </form> 
+        </fieldset>
+        <br> <br>
+        </main>
+     
+    
+    
+        <footer class="footer bg-dark p-3 text-light">
+          <a class="redes1" href="https://www.facebook.com/Quad-Rugby-Cordoba-419424348132138/" target="_blank">
+           <img class="imgredes" src="../imagenes/facebook.png" alt=""></a>
+          <a class="redes2" href="http://www.instagram.com/quadrugbycordobaoficial/" target="_blank">
+            <img class="imgredes" src="../imagenes/instagram.png" alt="">
+          </a>
+          <a href="3513056075" target="_blank">
+            <img class="imgredes" src="../imagenes/whatsapp.png" alt="">
+          </a>
+          
+      </footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
