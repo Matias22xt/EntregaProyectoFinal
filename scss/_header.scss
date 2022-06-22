@@ -1,0 +1,18 @@
+header{ display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: none;
+    grid-template-areas: 
+    "h1 h1";
+    height: 220px;
+                            
+     h1{
+        color:rgb(247, 243, 243);
+        font-family: 'Dancing Script', cursive;
+        font-size: 100%;
+        text-align: center;
+        grid-area: h1;
+        display:grid;
+       
+
+    }
+}

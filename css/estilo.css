@@ -1,3 +1,171 @@
+@charset "UTF-8";
 body {
   background-image: url(../img/2dogos.jpg);
   background-repeat: repeat; }
+
+header {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: none;
+  grid-template-areas: "h1 h1";
+  height: 220px; }
+  header h1 {
+    color: #f7f3f3;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100%;
+    text-align: center;
+    grid-area: h1;
+    display: grid; }
+
+main .pstyle {
+  font-size: 200%;
+  font-style: oblique;
+  color: #f3f706;
+  grid-area: pstyle;
+  width: 283px;
+  text-align: center;
+  margin: 15px;
+  flex-flow: column;
+  height: fit-content;
+  flex-basis: auto;
+  background-color: #e66849; }
+
+main .pstyle1 {
+  font-size: 200%;
+  font-style: oblique;
+  color: #d66519;
+  grid-area: pstyle;
+  width: 283px;
+  text-align: center;
+  margin: 15px;
+  flex-flow: column;
+  height: fit-content;
+  flex-basis: auto;
+  background-color: #93a7d8; }
+
+main .img1 {
+  width: 44%;
+  grid-area: img1;
+  position: relative;
+  left: 15px;
+  top: -8px;
+  display: inline-block;
+  transition: heigth 2s, width 2s; }
+
+main .img1:hover {
+  height: 550px;
+  width: 500px; }
+
+main .img2 {
+  width: 29%;
+  position: relative;
+  grid-area: img2;
+  right: 43px;
+  top: 13px;
+  display: inline-block;
+  transition: heigth 2s, width 2s; }
+
+main .img2:hover {
+  height: 400px;
+  width: 400px; }
+
+main .boton, main .boton .btndiscapacidad, main .boton .btndeportes {
+  width: 200px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+  color: black; }
+  main .boton .btndiscapacidad {
+    background-color: #f5f582; }
+  main .boton .btndeportes {
+    background-color: #86d3f1; }
+
+main nav .video {
+  grid-area: video;
+  position: relative;
+  width: 163%;
+  display: flex; }
+
+.footer {
+  display: flex;
+  padding: 1px;
+  margin: 1px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.inst {
+  max-width: 5%;
+  max-height: 5%; }
+
+.face {
+  max-width: 5%;
+  max-height: 5%; }
+
+.wsp {
+  max-width: 5%;
+  max-height: 5%; }
+
+.donaciòn {
+  max-width: 5%;
+  max-height: 5%; }
+
+.ubicacion {
+  max-width: 5%;
+  max-height: 5%; }
+
+.redes1 {
+  font-family: cursive;
+  color: #f76606;
+  text-decoration: none;
+  font-size: 150%;
+  text-align: center; }
+
+.redes2 {
+  font-family: cursive;
+  color: #f76606;
+  text-decoration: none;
+  font-size: 150%;
+  text-align: center; }
+
+.redes3 {
+  font-family: cursive;
+  color: #f76606;
+  text-decoration: none;
+  font-size: 150%;
+  text-align: center; }
+
+.redes4 {
+  font-family: cursive;
+  color: #f76606;
+  text-decoration: none;
+  font-size: 150%;
+  text-align: center; }
+
+.redes5 {
+  font-family: cursive;
+  color: #f76606;
+  text-decoration: none;
+  font-size: 150%;
+  text-align: center; }
+
+.menu3 {
+  color: #0c2433;
+  font-family: cursive;
+  font-size: 60%;
+  text-decoration: none;
+  display: grid; }
+
+.menu3:hover {
+  color: beige; }
+
+.imgredes {
+  width: 60px;
+  border-radius: 20px;
+  padding: 5px;
+  transition: heigt 2s width 2s; }
+
+.imgredes:hover {
+  height: 50px;
+  width: 50px; }

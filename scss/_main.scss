@@ -1,0 +1,78 @@
+$texto: #f3f706;
+$texto1:#d66519;
+$fondo:#e66849;
+$fondo1:#93a7d8;
+
+main{
+@mixin estilocaja($colorr,$bg) {
+    font-size: 200%;
+        font-style: oblique;
+        color: $colorr;
+        grid-area: pstyle;
+        width: 283px;
+        text-align: center;
+        margin: 15px;
+        flex-flow: column;
+        height: fit-content;
+        flex-basis: auto;
+        background-color: $bg;
+        }
+.pstyle{
+    @include estilocaja($texto,$fondo)
+    
+}
+.pstyle1{
+    @include estilocaja($texto1,$fondo1)
+}
+    .img1{
+            width: 44%;
+            grid-area: img1;
+            position: relative;
+            left: 15px;
+            top: -8px;
+            display: inline-block;
+            transition: heigth 2s, width 2s;
+        }
+        .img1:hover{
+            height: 550px;
+            width: 500px;
+        }
+        .img2{
+            width: 29%;
+            position: relative;
+            grid-area: img2;
+            right: 43px;
+            top: 13px;
+            display: inline-block;
+            transition: heigth 2s, width 2s;
+                    }
+          .img2:hover{
+                    height: 400px;
+                    width: 400px;
+                    }
+
+                    .boton{
+                        width: 200px;
+                        text-align: center;
+                        padding: 5px 0;
+                        margin: 2px auto;
+                        border-radius: 2px;
+                        color: black;
+                        .btndiscapacidad{
+                            @extend .boton;
+                            background-color: rgb(245, 245, 130);
+                        }
+                        .btndeportes{
+                            @extend .boton;
+                            background-color: rgb(134, 211, 241);
+                        }
+                    }
+                    nav{
+                        .video{
+                            grid-area: video;
+                            position: relative;
+                            width: 163%;
+                            display: flex; 
+                        }
+                    }
+    }
