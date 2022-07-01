@@ -138,6 +138,40 @@ main .input:focus {
   color: black;
   background-color: white; }
 
+.containerredes {
+  display: grid;
+  height: 600px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  align-items: center; }
+
+.containerredes div {
+  text-align: center; }
+
+.inst {
+  max-width: 25%;
+  max-height: 25%; }
+
+.face {
+  max-width: 25%;
+  max-height: 25%; }
+
+.wsp {
+  max-width: 25%;
+  max-height: 25%; }
+
+.donaciòn {
+  max-width: 25%;
+  max-height: 25%; }
+
+.ubicacion {
+  max-width: 25%;
+  max-height: 25%; }
+
+.youtube {
+  max-width: 25%;
+  max-height: 25%; }
+
 .footer {
   display: grid;
   padding: 1px;
@@ -155,65 +189,6 @@ main .input:focus {
 .footer3 {
   display: block;
   grid-area: footer3; }
-
-.inst {
-  max-width: 5%;
-  max-height: 5%; }
-
-.face {
-  max-width: 5%;
-  max-height: 5%; }
-
-.wsp {
-  max-width: 5%;
-  max-height: 5%; }
-
-.donaciòn {
-  max-width: 5%;
-  max-height: 5%; }
-
-.ubicacion {
-  max-width: 5%;
-  max-height: 5%; }
-
-.youtube {
-  max-width: 5%;
-  max-height: 5%; }
-
-.redes1 {
-  font-family: cursive;
-  color: #f76606;
-  text-decoration: none;
-  font-size: 150%;
-  text-align: center; }
-
-.redes2 {
-  font-family: cursive;
-  color: #f76606;
-  text-decoration: none;
-  font-size: 150%;
-  text-align: center; }
-
-.redes3 {
-  font-family: cursive;
-  color: #f76606;
-  text-decoration: none;
-  font-size: 150%;
-  text-align: center; }
-
-.redes4 {
-  font-family: cursive;
-  color: #f76606;
-  text-decoration: none;
-  font-size: 150%;
-  text-align: center; }
-
-.redes5 {
-  font-family: cursive;
-  color: #f76606;
-  text-decoration: none;
-  font-size: 150%;
-  text-align: center; }
 
 .imgredes {
   width: 60px;

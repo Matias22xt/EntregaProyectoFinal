@@ -139,3 +139,43 @@ main{
                 }
 } 
 
+.containerredes{
+    display: grid;
+    height: 600px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+}
+.containerredes div{
+    text-align: center;
+
+}
+
+.inst{
+    max-width: 25%;
+    max-height: 25%;
+       }
+.face{
+    max-width: 25%;
+    max-height: 25%;
+              } 
+ .wsp{
+     max-width: 25%;
+     max-height: 25%;
+ }               
+ .donaciòn{
+   max-width: 25%;
+   max-height: 25%;
+ }
+
+ .ubicacion{
+   max-width: 25%;
+   max-height: 25%;
+ }
+ .youtube{
+   max-width: 25%;
+   max-height: 25%;
+   
+}
+
+
