@@ -139,12 +139,22 @@ main .input:focus {
   background-color: white; }
 
 .footer {
-  display: flex;
+  display: grid;
   padding: 1px;
   margin: 1px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #df5b04;
+  grid-template-columns: none;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "footer2" "footer3"; }
+
+.footer2 {
+  display: block;
+  grid-area: footer2; }
+
+.footer3 {
+  display: block;
+  grid-area: footer3; }
 
 .inst {
   max-width: 5%;
