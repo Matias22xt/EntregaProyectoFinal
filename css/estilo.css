@@ -176,6 +176,10 @@ main .input:focus {
   max-width: 5%;
   max-height: 5%; }
 
+.youtube {
+  max-width: 5%;
+  max-height: 5%; }
+
 .redes1 {
   font-family: cursive;
   color: #f76606;
