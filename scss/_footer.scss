@@ -1,7 +1,5 @@
 .footer{
      display: grid;
-     padding: 1px;
-     margin: 1px;
      justify-content: center;
      background-color: #df5b04;
      grid-template-columns: none;
@@ -20,7 +18,10 @@
   grid-area: footer3;
 }
                                                
-
+.imgfooter{
+  height: 38px;
+  width: 38px;
+}
 
 
 

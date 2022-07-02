@@ -1,7 +1,8 @@
 @charset "UTF-8";
 .principal {
   background-image: url(../img/2dogos.jpg);
-  background-repeat: repeat; }
+  background-size: contain;
+  background-position: top; }
 
 .principal1 {
   background-color: #0c2433; }
@@ -98,12 +99,17 @@ main article .subtitulo {
 
 main article .pconEstilo {
   font-style: italic;
-  font-size: 180%;
-  color: #ee5007; }
+  font-size: 130%;
+  color: #ee5007;
+  margin: 15px;
+  padding: 15px; }
 
 main article nav .lista {
-  font-size: 150%;
-  color: #ee5007; }
+  font-style: italic;
+  font-size: 130%;
+  color: #ee5007;
+  margin: 20px;
+  padding: 20px; }
 
 main .subtitulo2 {
   color: #ee5007;
@@ -174,8 +180,6 @@ main .input:focus {
 
 .footer {
   display: grid;
-  padding: 1px;
-  margin: 1px;
   justify-content: center;
   background-color: #df5b04;
   grid-template-columns: none;
@@ -189,6 +193,10 @@ main .input:focus {
 .footer3 {
   display: block;
   grid-area: footer3; }
+
+.imgfooter {
+  height: 38px;
+  width: 38px; }
 
 .imgredes {
   width: 60px;
