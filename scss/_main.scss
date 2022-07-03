@@ -31,25 +31,11 @@ main{
             left: 15px;
             top: -8px;
             display: inline-block;
-            transition: heigth 2s, width 2s;
+            
         }
-        .img1:hover{
-            height: 550px;
-            width: 500px;
+        
         }
-        .img2{
-            width: 29%;
-            position: relative;
-            grid-area: img2;
-            right: 43px;
-            top: 13px;
-            display: inline-block;
-            transition: heigth 2s, width 2s;
-                    }
-          .img2:hover{
-                    height: 400px;
-                    width: 400px;
-                    }
+          
 
                     .boton{
                         width: 200px;
@@ -75,7 +61,7 @@ main{
                             display: flex; 
                         }
                     }
-    }
+    
 
 main{
     
@@ -181,6 +167,15 @@ main{
    max-width: 25%;
    max-height: 25%;
    
+}
+
+.logo2{
+width: 200px;
+height: 200px;
+position: unset;
+left: 70px;
+margin: 10px;
+padding: 10px;
 }
 
 

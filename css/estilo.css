@@ -1,8 +1,9 @@
 @charset "UTF-8";
 .principal {
-  background-image: url(../img/2dogos.jpg);
+  background-image: url(../img/Rugby8.jpeg);
   background-size: contain;
-  background-position: top; }
+  background-repeat: no-repeat;
+  height: 50%; }
 
 .principal1 {
   background-color: #0c2433; }
@@ -53,39 +54,21 @@ main .img1 {
   position: relative;
   left: 15px;
   top: -8px;
-  display: inline-block;
-  transition: heigth 2s, width 2s; }
+  display: inline-block; }
 
-main .img1:hover {
-  height: 550px;
-  width: 500px; }
-
-main .img2 {
-  width: 29%;
-  position: relative;
-  grid-area: img2;
-  right: 43px;
-  top: 13px;
-  display: inline-block;
-  transition: heigth 2s, width 2s; }
-
-main .img2:hover {
-  height: 400px;
-  width: 400px; }
-
-main .boton, main .boton .btndiscapacidad, main .boton .btndeportes {
+.boton, .boton .btndiscapacidad, .boton .btndeportes {
   width: 200px;
   text-align: center;
   padding: 5px 0;
   margin: 2px auto;
   border-radius: 2px;
   color: black; }
-  main .boton .btndiscapacidad {
+  .boton .btndiscapacidad {
     background-color: #f5f582; }
-  main .boton .btndeportes {
+  .boton .btndeportes {
     background-color: #86d3f1; }
 
-main nav .video {
+nav .video {
   grid-area: video;
   position: relative;
   width: 163%;
@@ -177,6 +160,14 @@ main .input:focus {
 .youtube {
   max-width: 25%;
   max-height: 25%; }
+
+.logo2 {
+  width: 200px;
+  height: 200px;
+  position: unset;
+  left: 70px;
+  margin: 10px;
+  padding: 10px; }
 
 .footer {
   display: grid;
