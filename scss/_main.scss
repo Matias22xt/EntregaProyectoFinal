@@ -21,7 +21,7 @@ $fondo1:#93a7d8;
     text-align: center;
     .img8-1{
         height: 100%;
-        width: 206%;
+        width: 170%;
         margin: 3px;
         
     }
@@ -31,14 +31,11 @@ $fondo1:#93a7d8;
     text-align: center;
    
     .img9-1{
-      
-        
-    margin: 1px;
+        margin: 1px;
         height: 217px;
         width: 164px;
-        
-    }
-}
+        }
+      }
 
 .titulo{
     grid-area: titulo;
@@ -47,8 +44,6 @@ $fondo1:#93a7d8;
         font-family: 'Dancing Script', cursive;
         font-size: 250%;
         text-align: center;
-        
-        
     }
 }
 
