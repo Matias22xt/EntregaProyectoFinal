@@ -1,8 +1,6 @@
 @charset "UTF-8";
 .principal {
-  background-image: url(../img/Rugby8.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat; }
+  background-color: #c06e6e; }
 
 .principal1 {
   background-color: #0c2433; }
@@ -14,69 +12,88 @@
 
 .conteiner-header {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: none;
-  grid-template-areas: "h1 h1";
-  height: 220px; }
-  .conteiner-header h1 {
-    color: #f7f3f3;
+  grid-template-areas: "hamburg hamburg"; }
+
+.hamburg {
+  grid-area: hamburg;
+  height: 52px; }
+
+.imgindex {
+  height: 24px;
+  width: 24px; }
+
+.conteiner-main {
+  display: grid;
+  grid-template-areas: "img8 titulo" "parrafo1 parrafo1" "parrafo2 parrafo2" "video img9" "boton . " "donacion donacion";
+  align-items: center; }
+
+.img8 {
+  grid-area: img8;
+  text-align: center; }
+  .img8 .img8-1 {
+    height: 100%;
+    width: 206%;
+    margin: 3px; }
+
+.img9 {
+  grid-area: img9;
+  text-align: center; }
+  .img9 .img9-1 {
+    margin: 1px;
+    height: 217px;
+    width: 164px; }
+
+.titulo {
+  grid-area: titulo; }
+  .titulo .titulo1 {
+    color: #f72424;
     font-family: 'Dancing Script', cursive;
-    font-size: 300%;
-    text-align: center;
-    grid-area: h1;
-    display: grid; }
+    font-size: 250%;
+    text-align: center; }
+
+.parrafo1 {
+  grid-area: parrafo1; }
+
+.parrafo2 {
+  grid-area: parrafo2; }
 
 main .pstyle {
   font-size: 100%;
   font-style: oblique;
   color: #f3f706;
-  grid-area: pstyle;
-  width: 283px;
   text-align: center;
-  margin: 15px;
-  flex-flow: column;
-  height: fit-content;
-  flex-basis: auto;
+  margin: 5px;
   background-color: #e66849; }
 
 main .pstyle1 {
   font-size: 100%;
   font-style: oblique;
   color: #d66519;
-  grid-area: pstyle;
-  width: 283px;
   text-align: center;
-  margin: 15px;
-  flex-flow: column;
-  height: fit-content;
-  flex-basis: auto;
+  margin: 5px;
   background-color: #93a7d8; }
 
-main .img1 {
-  width: 44%;
-  grid-area: img1;
-  position: relative;
-  left: 15px;
-  top: -8px;
-  display: inline-block; }
-
 .boton, .boton .btndiscapacidad, .boton .btndeportes {
-  width: 200px;
+  width: 150px;
   text-align: center;
-  padding: 5px 0;
-  margin: 2px auto;
-  border-radius: 2px;
-  color: black; }
+  padding: 2px;
+  margin: 1px;
+  border-radius: 18px;
+  color: black;
+  grid-area: boton; }
   .boton .btndiscapacidad {
     background-color: #f5f582; }
   .boton .btndeportes {
     background-color: #86d3f1; }
 
-nav .video {
+.video {
   grid-area: video;
-  position: relative;
-  width: 163%;
-  display: flex; }
+  width: 160%;
+  text-align: left;
+  margin: 8px; }
+
+.donacion {
+  grid-area: donacion; }
 
 main article .subtitulo {
   color: #ee5007;

@@ -3,69 +3,115 @@ $texto1:#d66519;
 $fondo:#e66849;
 $fondo1:#93a7d8;
 
+.conteiner-main{
+    display: grid;
+    grid-template-areas: 
+    "img8 titulo"
+    "parrafo1 parrafo1"
+    "parrafo2 parrafo2"
+    "video img9"
+    "boton . "
+    "donacion donacion";
+    align-items: center;
+}
+
+
+.img8{
+    grid-area: img8;
+    text-align: center;
+    .img8-1{
+        height: 100%;
+        width: 206%;
+        margin: 3px;
+        
+    }
+}
+.img9{
+    grid-area: img9;
+    text-align: center;
+   
+    .img9-1{
+      
+        
+    margin: 1px;
+        height: 217px;
+        width: 164px;
+        
+    }
+}
+
+.titulo{
+    grid-area: titulo;
+    .titulo1{
+        color:rgb(247, 36, 36);
+        font-family: 'Dancing Script', cursive;
+        font-size: 250%;
+        text-align: center;
+        
+        
+    }
+}
+
+.parrafo1{
+    grid-area: parrafo1;
+
+      }
+.parrafo2{
+    grid-area: parrafo2;
+}
 main{
 @mixin estilocaja($colorr,$bg) {
     font-size: 100%;
         font-style: oblique;
         color: $colorr;
-        grid-area: pstyle;
-        width: 283px;
         text-align: center;
-        margin: 15px;
-        flex-flow: column;
-        height: fit-content;
-        flex-basis: auto;
+        margin: 5px;
         background-color: $bg;
         }
 .pstyle{
     @include estilocaja($texto,$fondo)
+   
     
 }
 .pstyle1{
     @include estilocaja($texto1,$fondo1)
+    
 }
-    .img1{
-            width: 44%;
-            grid-area: img1;
-            position: relative;
-            left: 15px;
-            top: -8px;
-            display: inline-block;
-            
-        }
         
         }
-          
-
-                    .boton{
-                        width: 200px;
-                        text-align: center;
-                        padding: 5px 0;
-                        margin: 2px auto;
-                        border-radius: 2px;
-                        color: black;
+            .boton{ width: 150px;
+                   text-align: center;
+                   padding: 2px;
+                   margin: 1px;
+                   border-radius: 18px;
+                   color: black;
+                   grid-area: boton;
+        
                         .btndiscapacidad{
                             @extend .boton;
                             background-color: rgb(245, 245, 130);
+                           
                         }
                         .btndeportes{
                             @extend .boton;
                             background-color: rgb(134, 211, 241);
+                            
                         }
                     }
-                    nav{
-                        .video{
+                    .video{
                             grid-area: video;
-                            position: relative;
-                            width: 163%;
-                            display: flex; 
-                        }
-                    }
+                            width: 160%;
+                            text-align: left;
+                            margin: 8px;
+                             }
+ .donacion{
+    grid-area: donacion;
+ }                       
+                    
     
 
 main{
-    
-    article{
+     article{
         .subtitulo{
             color: rgb(238, 80, 7);
             text-decoration-line: underline;
@@ -214,3 +260,4 @@ margin: 10px;
 padding: 10px;
 }
  
+
