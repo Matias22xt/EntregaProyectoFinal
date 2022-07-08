@@ -1,10 +1,10 @@
 .conteiner-header{ display: grid;
     grid-template-areas: 
-    "hamburg hamburg";
-        }
+    "hamburg hamburg"
+       "none none"; }
 .hamburg{
     grid-area: hamburg;
-    height: 40px;;
+    height: 70px;
 }
 .imgindex{
     height: 23px;
