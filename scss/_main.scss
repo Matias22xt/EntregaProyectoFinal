@@ -6,10 +6,10 @@ $fondo1:#93a7d8;
 .conteiner-main{
     display: grid;
     grid-template-areas: 
-    "img9 titulo"
+    "img8 titulo"
     "parrafo1 parrafo1"
     "parrafo2 parrafo2"
-    "video img8"
+    "video img9"
     "boton . "
     "donacion donacion";
     align-items: center;
@@ -40,7 +40,7 @@ $fondo1:#93a7d8;
 .titulo{
     grid-area: titulo;
     .titulo1{
-        color:rgb(247, 36, 36);
+        color:white;
         font-family: 'Dancing Script', cursive;
         font-size: 250%;
         text-align: center;
@@ -108,7 +108,7 @@ main{
 main{
      article{
         .subtitulo{
-            color: rgb(238, 80, 7);
+            color: white;
             text-decoration-line: underline;
             text-align: center;
             font-size: 150%;
@@ -119,7 +119,7 @@ main{
          .pconEstilo{
             font-style: italic;
             font-size: 90%;
-            color: rgb(238, 80, 7);
+            color: white;
             margin: 5px;
             padding: 5px;
                   }
@@ -127,7 +127,7 @@ main{
                         .lista{
                             font-style: italic;
                             font-size: 90%;
-                            color: rgb(238, 80, 7);
+                            color: white;
                             margin: 10px;
                                  }
                      }
@@ -139,7 +139,7 @@ main{
     }
 
     .subtituloo2{
-        color: rgb(238, 80, 7);
+        color: white;
         margin: 10px;
         padding: 10px;
         top: 10px;
@@ -148,7 +148,7 @@ main{
       }
 
     .subtitulo2{
-        color: rgb(238, 80, 7);
+        color: white;
         margin: 10px;
         padding: 10px;
               }
@@ -184,7 +184,7 @@ main{
     display: grid;
     height: 450px;
     grid-template-areas: 
-    "redes1 redes2 redes2"
+    "redes2 redes2 redes2"
     "redes1 redes3 redes4"
     "redes5 redes6 redes7"
     "redes8 redes8 redes8";
@@ -199,14 +199,14 @@ margin: 5%;
 padding: 5%;
  }
 .redes1img{
-    width: 125px;
-    height: 125px;
+    width: 145px;
+    height: 135px;
     }
 .redes2{
     grid-area: redes2;
-    color: #d66519;
+    color: white;
     font-family: cursive;
-    font-size: 180%;
+    font-size: 220%;
     margin: 1%;
     padding: 1%;
 }
@@ -251,7 +251,7 @@ padding: 5%;
    max-height: 25%;
  }
  .youtube{
-   max-width: 50%;
+   max-width: 40%;
    max-height: 25%;
    
 }
