@@ -21,7 +21,7 @@ $fondo1:#93a7d8;
     text-align: center;
     .img8-1{
         height: 100%;
-        width: 170%;
+        width: 100%;
         margin: 3px;
         
     }
@@ -134,31 +134,41 @@ main{
          }
 } 
 main{
+    .formulario{
+        text-align: center;
+    }
+
+    .subtituloo2{
+        color: rgb(238, 80, 7);
+        margin: 10px;
+        padding: 10px;
+        top: 10px;
+        left: 10px;
+        
+      }
+
     .subtitulo2{
         color: rgb(238, 80, 7);
         margin: 10px;
         padding: 10px;
               }
-              .subtituloo2{
-                color: rgb(238, 80, 7);
-                margin: 10px;
-                padding: 10px;
-                top: 10px;
-                left: 10px;
-                
-              }
+            
               form{
                 margin: 0 auto;
                 width: 300px;
                 background-color: rgb(235, 235, 137);
                 padding: 10px;
                 border-radius: 10px;
-            }       
+            } 
+            .opciones{
+                text-align: left;
+            }      
               .cuadro{
                 color: rgb(238, 80, 7); 
+                
                    }
                    .input{
-                    width: 200px;
+                    width: 150px;
                     height: 18px;
                 }
                 .input:focus{

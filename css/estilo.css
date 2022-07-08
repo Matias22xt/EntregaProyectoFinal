@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .principal {
-  background-color: #c06e6e; }
+  background-color: #757272; }
 
 .principal1 {
   background-color: #0c2433; }
@@ -16,11 +16,11 @@
 
 .hamburg {
   grid-area: hamburg;
-  height: 52px; }
+  height: 40px; }
 
 .imgindex {
-  height: 24px;
-  width: 24px; }
+  height: 23px;
+  width: 23px; }
 
 .conteiner-main {
   display: grid;
@@ -32,7 +32,7 @@
   text-align: center; }
   .img8 .img8-1 {
     height: 100%;
-    width: 170%;
+    width: 100%;
     margin: 3px; }
 
 .img9 {
@@ -114,10 +114,8 @@ main article nav .lista {
   color: #ee5007;
   margin: 10px; }
 
-main .subtitulo2 {
-  color: #ee5007;
-  margin: 10px;
-  padding: 10px; }
+main .formulario {
+  text-align: center; }
 
 main .subtituloo2 {
   color: #ee5007;
@@ -126,6 +124,11 @@ main .subtituloo2 {
   top: 10px;
   left: 10px; }
 
+main .subtitulo2 {
+  color: #ee5007;
+  margin: 10px;
+  padding: 10px; }
+
 main form {
   margin: 0 auto;
   width: 300px;
@@ -133,11 +136,14 @@ main form {
   padding: 10px;
   border-radius: 10px; }
 
+main .opciones {
+  text-align: left; }
+
 main .cuadro {
   color: #ee5007; }
 
 main .input {
-  width: 200px;
+  width: 150px;
   height: 18px; }
 
 main .input:focus {
@@ -226,7 +232,7 @@ main .input:focus {
 .footer {
   display: grid;
   justify-content: center;
-  background-color: #df5b04;
+  background-color: #B20600;
   grid-template-columns: none;
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "footer2" "footer3"; }

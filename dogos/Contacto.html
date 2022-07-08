@@ -67,18 +67,19 @@
           
             <h3 class="subtituloo2">Envìanos tu consulta:</h3>
         <fieldset>
-            <form action="#"><!--etiqueta padre -->
+            <form class="formulario" action="#"><!--etiqueta padre -->
                 <h2 class="subtitulo2">Contacto</h2>
                 <label class="cuadro" for="Nombre">Nombre</label>
                 <input class="input" type="text" required><br> <br>
                 <label class="cuadro" for="Apellido">Apellido</label>
                 <input class="input" type="text" required><br><br>
-                <label class="cuadro"for="E-mail">E-mail</label>
+                <label class="cuadro"for="E-mail">Mail</label>
                 <input class="input" type="text" required><br><br>
+                <div class="opciones">
                 <div class="form-check form-switch text-light">
                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                    <label class="cuadro form-check-label" for="flexSwitchCheckDefault">Lesionado Medular.</label>
-                  </div>
+                    <label class="cuadro form-check-label" for="flexSwitchCheckDefault">Lesionado Medular</label>
+                  </div><br>
                 <select name="Paises">
                     <option value="opcion1">Argentina</option>
                     <option value="opcion2">Brasil</option>
@@ -87,23 +88,23 @@
                     <option value="opcion5">Paraguay</option>
                     <option value="opcion6">Chile</option>
                     <option value="opcion7">Bolivia</option>
-    
-                </select>
+                 </select>
                 <br><br>
                 <div class="form-check text-light">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                   <label class="cuadro form-check-label" for="flexRadioDefault2">
-                    Mujer.
+                    Mujer
                   </label>
                 </div>
-                <div class="text-light">
+                <div class="form-check text-light">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     <label class="cuadro form-check-label" for="flexRadioDefault1">
-                      Hombre.
+                      Hombre
                     </label>
                   </div>
+                </div>
                   
-                <textarea class="cuadro" name="comentario" id="" cols="30" rows="10"></textarea><br><br>
+                <textarea class="cuadro" name="comentario" id="" cols="30" rows="10"></textarea><br>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
