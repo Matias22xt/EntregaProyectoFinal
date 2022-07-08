@@ -2,14 +2,14 @@ $texto: #f3f706;
 $texto1:#d66519;
 $fondo:#e66849;
 $fondo1:#93a7d8;
-
+ 
 .conteiner-main{
     display: grid;
     grid-template-areas: 
-    "img8 titulo"
+    "img9 titulo"
     "parrafo1 parrafo1"
     "parrafo2 parrafo2"
-    "video img9"
+    "video img8"
     "boton . "
     "donacion donacion";
     align-items: center;

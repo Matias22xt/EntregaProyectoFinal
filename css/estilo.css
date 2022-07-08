@@ -24,7 +24,7 @@
 
 .conteiner-main {
   display: grid;
-  grid-template-areas: "img8 titulo" "parrafo1 parrafo1" "parrafo2 parrafo2" "video img9" "boton . " "donacion donacion";
+  grid-template-areas: "img9 titulo" "parrafo1 parrafo1" "parrafo2 parrafo2" "video img8" "boton . " "donacion donacion";
   align-items: center; }
 
 .img8 {
