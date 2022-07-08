@@ -28,11 +28,10 @@
   align-items: center; }
 
 .img8 {
-  grid-area: img8;
-  text-align: center; }
+  grid-area: img8; }
   .img8 .img8-1 {
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     margin: 3px; }
 
 .img9 {
