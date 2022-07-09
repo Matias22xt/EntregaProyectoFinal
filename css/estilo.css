@@ -224,7 +224,7 @@ main .input:focus {
 .footer {
   display: grid;
   justify-content: center;
-  background-color: #6d6c6c;
+  background-color: black;
   grid-template-columns: none;
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "footer2" "footer3"; }
@@ -243,7 +243,6 @@ main .input:focus {
 
 .imgredes {
   width: 60px;
-  border-radius: 20px;
   padding: 5px;
   transition: heigt 2s width 2s; }
 
