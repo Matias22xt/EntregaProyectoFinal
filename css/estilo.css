@@ -5,11 +5,11 @@
 
 .conteiner-header {
   display: grid;
-  grid-template-areas: "hamburg hamburg" "none none"; }
+  grid-template-areas: "hamburg hamburg"; }
 
 .hamburg {
   grid-area: hamburg;
-  height: 70px; }
+  height: 50px; }
 
 .imgindex {
   height: 23px;
@@ -24,7 +24,7 @@
   grid-area: img8; }
   .img8 .img8-1 {
     height: 90%;
-    width: 90%;
+    width: 206%;
     margin: 3px; }
 
 .img9 {
@@ -40,7 +40,7 @@
   .titulo .titulo1 {
     color: white;
     font-family: 'Dancing Script', cursive;
-    font-size: 250%;
+    font-size: 230%;
     text-align: center; }
 
 .parrafo1 {
@@ -117,7 +117,7 @@ main .subtituloo2 {
   left: 10px; }
 
 main .subtitulo2 {
-  color: white;
+  color: #f70b0b;
   margin: 10px;
   padding: 10px; }
 
