@@ -1,59 +1,42 @@
-$texto: #f3f706;
-$texto1:#d66519;
-$fondo:#e66849;
-$fondo1:#93a7d8;
+$texto: #e0dfdf;
+$texto1:#ec1d0e;
+$fondo: rgba(145, 145, 137, 0.3);
+$fondo1:rgba(32, 31, 31, 0.7);
  
 .conteiner-main{
     display: grid;
     grid-template-areas: 
-    "img8 titulo"
+    "img8 img9"
     "parrafo1 parrafo1"
     "parrafo2 parrafo2"
-    "video img9"
+    "video video"
     "boton . "
     "donacion donacion";
     align-items: center;
-}
-
-
+              }
 .img8{
     grid-area: img8;
-    
-    .img8-1{
-        height: 90%;
-        width: 206%;
-        margin: 3px;
-        
     }
-}
 .img9{
     grid-area: img9;
     text-align: center;
-   
-    .img9-1{
-        margin: 1px;
-        height: 216px;
-        width: 164px;
+       .img9-1{
+        height: 100%;
+        width: 98%;
         }
       }
-
-.titulo{
-    grid-area: titulo;
-    .titulo1{
-        color:white;
-        font-family: 'Dancing Script', cursive;
-        font-size: 230%;
-        text-align: center;
+.card{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100%;
+    text-align: center;
     }
-}
-
 .parrafo1{
     grid-area: parrafo1;
-
-      }
+       }
 .parrafo2{
     grid-area: parrafo2;
-}
+           }
 main{
 @mixin estilocaja($colorr,$bg) {
     font-size: 100%;
@@ -62,17 +45,13 @@ main{
         text-align: center;
         margin: 5px;
         background-color: $bg;
-        }
+            }
 .pstyle{
     @include estilocaja($texto,$fondo)
-   
-    
-}
+         }
 .pstyle1{
     @include estilocaja($texto1,$fondo1)
-    
-}
-        
+    }
         }
             .boton{ width: 150px;
                    text-align: center;
@@ -81,30 +60,24 @@ main{
                    border-radius: 18px;
                    color: black;
                    grid-area: boton;
-        
-                        .btndiscapacidad{
+                      .btndiscapacidad{
                             @extend .boton;
                             background-color: rgb(245, 245, 130);
-                           
-                        }
+                             }
                         .btndeportes{
                             @extend .boton;
                             background-color: rgb(134, 211, 241);
-                            
-                        }
+                           }
                     }
                     .video{
                             grid-area: video;
-                            width: 160%;
-                            text-align: left;
+                            width: 100%;
+                            text-align: center;
                             margin: 8px;
                              }
- .donacion{
-    grid-area: donacion;
- }                       
-                    
-    
-
+                           .donacion{
+                                   grid-area: donacion;
+                                        }                       
 main{
      article{
         .subtitulo{
@@ -136,24 +109,20 @@ main{
 main{
     .formulario{
         text-align: center;
-    }
-
-    .subtituloo2{
+           }
+ .subtituloo2{
         color: white;
         margin: 10px;
         padding: 10px;
         top: 10px;
         left: 10px;
-        
-      }
-
+        }
     .subtitulo2{
         color: rgb(247, 11, 11);
         margin: 10px;
         padding: 10px;
               }
-            
-              form{
+             form{
                 margin: 0 auto;
                 width: 300px;
                 background-color: rgb(235, 235, 137);
@@ -165,9 +134,7 @@ main{
             }      
               .cuadro{
                 color: rgb(238, 80, 7); 
-                
-                
-                   }
+                 }
                    .input{
                     width: 150px;
                     height: 18px;
@@ -180,7 +147,6 @@ main{
                     background-color: white;
                 }
 } 
-
 .containerredes{
     display: grid;
     height: 450px;
@@ -198,10 +164,11 @@ main{
 grid-area: redes1;
 margin: 5%;
 padding: 5%;
+
  }
 .redes1img{
-    width: 145px;
-    height: 135px;
+    width: 100%;
+    height: 100%;
     }
 .redes2{
     grid-area: redes2;
@@ -210,6 +177,8 @@ padding: 5%;
     font-size: 220%;
     margin: 1%;
     padding: 1%;
+    height: 100%;
+    width: 100%;
 }
 .redes3{
     grid-area: redes3;
@@ -231,31 +200,26 @@ padding: 5%;
 }
 
 .inst{
-    max-width: 50%;
-    max-height: 45%;
+    width: 60%;
+    height: 60%;
        }
 .face{
-    max-width: 50%;
-    max-height: 25%;
+    @extend .inst
               } 
  .wsp{
-     max-width: 50%;
-     max-height: 25%;
+    @extend .inst
  }               
  .donaciòn{
-   max-width: 50%;
-   max-height: 25%;
+    @extend .inst
  }
 
  .ubicacion{
-   max-width: 25%;
-   max-height: 25%;
+    width: 30%;
+    height: 30%;
  }
  .youtube{
-   max-width: 40%;
-   max-height: 25%;
-   
-}
+    @extend .inst
+   }
 
 .logo2{
 width: 200px;
@@ -266,4 +230,3 @@ margin: 10px;
 padding: 10px;
 }
  
-
