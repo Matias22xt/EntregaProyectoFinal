@@ -17,18 +17,21 @@
 
 .conteiner-main {
   display: grid;
-  grid-template-areas: "img8 img9" "parrafo1 parrafo1" "parrafo2 parrafo2" "video video" "boton . " "donacion donacion";
+  grid-template-areas: "img8 img8" "parrafo1 parrafo1" "parrafo2 parrafo2" "video video" "boton2 img9 " "donacion donacion";
   align-items: center; }
 
 .img8 {
   grid-area: img8; }
+  .img8 .img-8 {
+    width: 100%; }
 
 .img9 {
   grid-area: img9;
   text-align: center; }
   .img9 .img9-1 {
+    margin: 3px;
     height: 100%;
-    width: 98%; }
+    width: 55%; }
 
 .card {
   color: white;
@@ -58,18 +61,22 @@ main .pstyle1 {
   margin: 5px;
   background-color: rgba(32, 31, 31, 0.7); }
 
-.boton, .boton .btndiscapacidad, .boton .btndeportes {
-  width: 150px;
-  text-align: center;
-  padding: 2px;
-  margin: 1px;
-  border-radius: 18px;
-  color: black;
-  grid-area: boton; }
-  .boton .btndiscapacidad {
-    background-color: #f5f582; }
-  .boton .btndeportes {
-    background-color: #86d3f1; }
+.boton2 {
+  grid-area: boton2;
+  width: 100%;
+  background-color: rgba(236, 212, 212, 0.2); }
+  .boton2 .boton, .boton2 .boton .btndiscapacidad, .boton2 .boton .btndeportes {
+    text-align: center;
+    width: 135px;
+    padding: 2px;
+    margin: 1px;
+    border-radius: 18px;
+    color: black;
+    grid-area: boton; }
+    .boton2 .boton .btndiscapacidad {
+      background-color: #f5f582; }
+    .boton2 .boton .btndeportes {
+      background-color: #86d3f1; }
 
 .video {
   grid-area: video;
@@ -110,14 +117,14 @@ main .subtituloo2 {
   left: 10px; }
 
 main .subtitulo2 {
-  color: #f70b0b;
+  color: #f32323;
   margin: 10px;
   padding: 10px; }
 
 main form {
   margin: 0 auto;
   width: 300px;
-  background-color: #ebeb89;
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 10px;
   border-radius: 10px; }
 
@@ -125,11 +132,11 @@ main .opciones {
   text-align: left; }
 
 main .cuadro {
-  color: #ee5007; }
+  color: #f32323; }
 
 main .input {
   width: 150px;
-  height: 18px; }
+  height: 27px; }
 
 main .input:focus {
   width: 250px;
@@ -137,6 +144,9 @@ main .input:focus {
   font-size: 25px;
   color: black;
   background-color: white; }
+
+.subtitulo3 {
+  color: white; }
 
 .containerredes {
   display: grid;
@@ -200,6 +210,13 @@ main .input:focus {
   margin: 10px;
   padding: 10px; }
 
+.carousel-inne {
+  height: 500px; }
+
+.integ {
+  width: 25%;
+  max-height: 25%; }
+
 .footer {
   display: grid;
   justify-content: center;
@@ -221,8 +238,8 @@ main .input:focus {
   width: 38px; }
 
 .imgredes {
-  width: 60px;
-  padding: 5px;
+  width: 50px;
+  padding: 3px;
   transition: heigt 2s width 2s; }
 
 .imgredes:hover {

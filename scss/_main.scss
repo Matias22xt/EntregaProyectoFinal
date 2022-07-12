@@ -6,23 +6,27 @@ $fondo1:rgba(32, 31, 31, 0.7);
 .conteiner-main{
     display: grid;
     grid-template-areas: 
-    "img8 img9"
+    "img8 img8"
     "parrafo1 parrafo1"
     "parrafo2 parrafo2"
     "video video"
-    "boton . "
+    "boton2 img9 "
     "donacion donacion";
     align-items: center;
               }
 .img8{
     grid-area: img8;
+    .img-8{
+        width: 100%;
     }
+}
 .img9{
     grid-area: img9;
     text-align: center;
        .img9-1{
+        margin: 3px;
         height: 100%;
-        width: 98%;
+        width: 55%;
         }
       }
 .card{
@@ -30,6 +34,7 @@ $fondo1:rgba(32, 31, 31, 0.7);
     font-family: 'Dancing Script', cursive;
     font-size: 100%;
     text-align: center;
+    
     }
 .parrafo1{
     grid-area: parrafo1;
@@ -53,22 +58,34 @@ main{
     @include estilocaja($texto1,$fondo1)
     }
         }
-            .boton{ width: 150px;
-                   text-align: center;
-                   padding: 2px;
-                   margin: 1px;
-                   border-radius: 18px;
-                   color: black;
-                   grid-area: boton;
-                      .btndiscapacidad{
-                            @extend .boton;
-                            background-color: rgb(245, 245, 130);
-                             }
-                        .btndeportes{
-                            @extend .boton;
-                            background-color: rgb(134, 211, 241);
-                           }
-                    }
+        .boton2{grid-area: boton2;
+            width: 100%;
+            background-color: rgba(236, 212, 212, 0.2);
+            
+
+        
+
+            .boton{ 
+                text-align: center;
+                width: 135px;
+                padding: 2px;
+                margin: 1px;
+                border-radius: 18px;
+                color: black;
+                grid-area: boton;
+                   .btndiscapacidad{
+                         @extend .boton;
+                         background-color: rgb(245, 245, 130);
+                          }
+                     .btndeportes{
+                         @extend .boton;
+                         background-color: rgb(134, 211, 241);
+                        }
+                 }
+             }
+
+        
+           
                     .video{
                             grid-area: video;
                             width: 100%;
@@ -118,14 +135,14 @@ main{
         left: 10px;
         }
     .subtitulo2{
-        color: rgb(247, 11, 11);
+        color: rgb(243, 35, 35);
         margin: 10px;
         padding: 10px;
               }
              form{
                 margin: 0 auto;
                 width: 300px;
-                background-color: rgb(235, 235, 137);
+                background-color: rgba(0, 0, 0, 0.6);
                 padding: 10px;
                 border-radius: 10px;
             } 
@@ -133,11 +150,11 @@ main{
                 text-align: left;
             }      
               .cuadro{
-                color: rgb(238, 80, 7); 
+                color: rgb(243, 35, 35); 
                  }
                    .input{
                     width: 150px;
-                    height: 18px;
+                    height: 27px;
                 }
                 .input:focus{
                     width: 250px;
@@ -147,6 +164,9 @@ main{
                     background-color: white;
                 }
 } 
+.subtitulo3{
+    color: white;
+}
 .containerredes{
     display: grid;
     height: 450px;
@@ -229,4 +249,11 @@ left: 70px;
 margin: 10px;
 padding: 10px;
 }
- 
+.carousel-inne{
+    height: 500px;
+}
+.integ{
+    width: 25%;
+    max-height: 25%;
+
+}
